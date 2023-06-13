@@ -9,9 +9,6 @@ local t   = ls.text_node
 local d   = ls.dynamic_node
 local sn  = ls.sn
 
-ls.filetype_extend("javascript", { "javascriptreact" })
-ls.filetype_extend("javascript", { "html" })
-
 ls.add_snippets("all", {
   s("whoami", fmt([[{}]], {
     f(function()
@@ -20,3 +17,5 @@ ls.add_snippets("all", {
   }))
 })
 
+ls.filetype_extend("javascript", { "javascriptreact" })
+ls.filetype_extend("javascript", { "html" })
