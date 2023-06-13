@@ -1,4 +1,5 @@
-{
+local plugins = {
+  {
     "nvim-treesitter/nvim-treesitter",
     opts = {
       ensure_installed = {
@@ -21,4 +22,5 @@
       },
     },
   },
-
+}
+return plugins
