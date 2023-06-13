@@ -2,6 +2,9 @@
 local M = {}
 M.ui = {
   theme = 'onedark',
+  status = {
+    dashboard = true,
+  },
   -- nvdash (dashboard)
   nvdash = {
     load_on_startup = true,
