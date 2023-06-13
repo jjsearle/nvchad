@@ -1,1 +1,2 @@
-vim.g.lua_snippets_path = vim.fn.stdpath "config" .. "/lua/custom/lua_snippets"
+vim.g.lua_snippets_path = "~/.config/nvim/lua/custom/lua_snippets/snippets.lua"
+
